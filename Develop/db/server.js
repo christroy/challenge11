@@ -6,7 +6,6 @@ const fs = require("fs");
 
 
 
-
 app.get("/api/notes", function (req, res) {
 
     res.json(db);
